@@ -1,6 +1,7 @@
 import javax.swing.JOptionPane;
 
 public class remarkable {
+	//uhuhuhuyh
 public static void main(String[] args) {
 	String name=JOptionPane.showInputDialog("what is your name");
 	if(name.equals("Victor")) {
