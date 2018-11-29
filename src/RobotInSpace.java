@@ -20,17 +20,19 @@
 
 	/*  Make the Robot move around the screen when the arrow keys are pressed... */
 	private void moveRobot(int keyPressed) {
-	    // 0. Print out the keyPressed variable and write down the numbers for each arrow key
-
-	    // 1. If the up arrow is pressed, move the Robot up the screen.
-
+	    // 0. Print out the keyPressed variable and write down the numbers for e
+	    System.out.println(keyPressed);
+		// 1. If the up arrow is pressed, move the Robot up the screen.
+	int up=38;
+	    
+	rob.move(up);
 	    // 2. If the down arrow is pressed, move the Robot down.
 
 	    // 3. If the left arrow is pressed, make the Robot go left. Hint: Make sure to end with the Robot facing UP.
 	    
 	    // 4. If right is pressed, move the Robot right.
 	    
-	    // 5. Then move the Robot to RD-2D for a surprise! 
+	    // 5. Then move the Robot to RD-2D for a surprise!38up 39right 40down 37left 
 	}
 
 	private void checkIfR2D2Found() throws Exception {
