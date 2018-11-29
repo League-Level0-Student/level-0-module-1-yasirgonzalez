@@ -18,7 +18,7 @@
 		
 	Robot rob = new Robot("mini");
 
-	/*  Make the Robot move around the screen when the arrow keys are pressed... */
+	/*  Mke the Robot move around the screen when the arrow keys are pressed... */
 	private void moveRobot(int keyPressed) {
 	    // 0. Print out the keyPressed variable and write down the numbers for e
 	    System.out.println(keyPressed);
