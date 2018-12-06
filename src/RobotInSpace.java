@@ -23,15 +23,26 @@
 	    // 0. Print out the keyPressed variable and write down the numbers for e
 	    System.out.println(keyPressed);
 		// 1. If the up arrow is pressed, move the Robot up the screen.
-	int up=38;
 	    
-	rob.move(up);
+	if (keyPressed==38) {
+		rob.setAngle(0);
+		rob.move(20);
+	}
 	    // 2. If the down arrow is pressed, move the Robot down.
-
+	else if (keyPressed==40) {
+		rob.setAngle(180);
+		rob.move(20);
+	}
 	    // 3. If the left arrow is pressed, make the Robot go left. Hint: Make sure to end with the Robot facing UP.
-	    
+	else if(keyPressed==37){
+		rob.setAngle(90);
+		rob.move(20);
+	}
 	    // 4. If right is pressed, move the Robot right.
-	    
+	else if (keyPressed==39) {
+		rob.setAngle(270);
+		rob.move(20);
+	}
 	    // 5. Then move the Robot to RD-2D for a surprise!38up 39right 40down 37left 
 	}
 

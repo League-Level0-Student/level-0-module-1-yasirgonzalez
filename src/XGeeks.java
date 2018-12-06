@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 public class XGeeks {
 public static void main(String[] args) {
 
-		// 1. Save the superpower for each person in a variable.
+		// 1. Save the superpower for each person in a variabledejciejfiwefhwijf.
 	String power=JOptionPane.showInputDialog("What do you do best/superpower?");
 		
 		// 2. Ask the user to enter a name. Store their answer in a variable.
