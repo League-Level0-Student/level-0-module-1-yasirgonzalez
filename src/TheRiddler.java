@@ -26,13 +26,37 @@ else {
 String riddletwo=JOptionPane.showInputDialog("What belongs to you but other people use it more?");
 	if(riddletwo.equals("your name")) {
 		score=score+1;
-		JOptionPane.showMessageDialog(null, "Coreect, you now have "+score+" points");
+		JOptionPane.showMessageDialog(null, "Correct, you now have "+score+" points");
 	}
 	else {
-		JOptionPane.showMessageDialog(null, "Incorrect");
+		JOptionPane.showMessageDialog(null, "Incorrect, the answer is your name");
 	}
-		// 2. Make a pop up to show the score.
-		JOptionPane.showMessageDialog(null, "you have "+score);
+	String riddlethree=JOptionPane.showInputDialog("If you eat me, my sender would eat you what am I?");
+	if(riddlethree.equals("a hook")) {
+		score=score+1;
+		JOptionPane.showMessageDialog(null, "Correct, now you have "+score+" points");
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "Wrong, the correct answer is a hook");
+	}
+	String riddlefour=JOptionPane.showInputDialog("what is as light as a feather put not even the worlds strongest man can hold it under a minute");
+	if(riddlefour.equals("air")) {
+		score=score+1;
+		JOptionPane.showMessageDialog(null, "Good job it is correct, you now have "+score+" points");
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "Nope, the right answer is air");
+	}
+	String riddlefive=JOptionPane.showInputDialog("Last one,Imagine you are in a dark room. How do you get out?");
+	if(riddlefive.equals("stop imagining")) {
+		score=score+1;
+		JOptionPane.showMessageDialog(null, "Correct, now lets check you score ->");
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "Wrong, the right answer is stop imagining, now lets see how you did ->");
+	}
+	// 2. Make a pop up to show the score.
+		JOptionPane.showMessageDialog(null, "you have a total amount of " +score+ " points");
 	}
 }
 
